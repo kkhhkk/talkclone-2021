@@ -1,3 +1,3 @@
 # Talk Clone Update - 2021
 
-CSS got so much better!
+HTML & CSS Project
