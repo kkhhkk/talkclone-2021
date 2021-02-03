@@ -1,0 +1,37 @@
+@import "components/alarm.css";
+
+.nav {
+  position: fixed;
+  bottom: 0mm;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 15px 40px;
+  box-sizing: border-box; /* padding을 주어도 box사이즈는 유지하게하는 명령 */
+  border-top: var(--border-line-);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+}
