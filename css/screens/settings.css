@@ -1,0 +1,33 @@
+.main-screen .settings-list {
+  height: 100vh;
+}
+
+.setting-list__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting-list__setting i {
+  margin-right: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.setting-list__setting:nth-child(3) {
+  border-bottom: var(--border-line-);
+}
+.setting-list__setting-gray {
+  opacity: 0.5;
+}
+
+.setting-list__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.setting-list__setting-column .alarm {
+  margin-left: 10px;
+}
