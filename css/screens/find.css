@@ -85,7 +85,7 @@
   height: 80px;
   border-radius: 10px;
 }
-<<<<<<< Updated upstream:css/screens/find.css
+
 .open-post__column {
   position: relative;
 }
@@ -103,28 +103,6 @@
 
 .open-post__column-heart i {
   margin-right: 2px;
-=======
-
-.open-post__heart-count {
-  background-color: rgba(34, 34, 34, 0.6);
-  color: white;
-  border-radius: 10px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  right: 10px;
-  bottom: 5px;
-  font-size: 12px;
-}
-
-.open-post__heart-count span {
-  margin-left: 4px;
-}
-
-.open-post__column {
-  position: relative;
->>>>>>> Stashed changes:css/screens/findicon.css
 }
 
 @keyframes heartbeat {
@@ -134,11 +112,8 @@
   }
   50% {
     color: tomato;
-<<<<<<< Updated upstream:css/screens/find.css
+
     transform: scale(1.3);
-=======
-    transform: scale(2);
->>>>>>> Stashed changes:css/screens/findicon.css
   }
   100% {
     color: white;
@@ -146,13 +121,7 @@
   }
 }
 
-<<<<<<< Updated upstream:css/screens/find.css
 .open-post__column-heart:hover i {
   will-change: transform;
   animation: heartbeat 1s ease-in-out infinite;
-=======
-.open-post__heart-count:hover i {
-  will-change: transform;
-  animation: heartbeat 1s linear infinite;
->>>>>>> Stashed changes:css/screens/findicon.css
 }

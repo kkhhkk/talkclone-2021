@@ -1,27 +1,15 @@
 #chat-screen {
   background-color: #abc1d1;
-<<<<<<< Updated upstream
   height: 300vh;
-=======
-  height: 1100vh;
->>>>>>> Stashed changes
 }
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-<<<<<<< Updated upstream
   background-color: #abc1d1;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
   top: 0;
-=======
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #abc1d1;
-  top: 0mm;
->>>>>>> Stashed changes
 }
 
 #chat-screen .status-bar {
@@ -44,11 +32,8 @@
 }
 
 .main-chat {
-<<<<<<< Updated upstream
   margin-top: 120px;
-=======
-  margin-top: 100px;
->>>>>>> Stashed changes
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,11 +126,8 @@
   position: relative;
 }
 .reply input {
-<<<<<<< Updated upstream
   padding: 10px 6px;
-=======
-  padding: 12px 6px;
->>>>>>> Stashed changes
+
   width: 100%;
   border: var(--border-line-);
   border-radius: 20px;
@@ -156,22 +138,15 @@
 .reply-column:last-child > i,
 .reply-column:last-child button {
   position: absolute;
-<<<<<<< Updated upstream
+
   right: -7px;
   top: 3px;
-=======
-  right: -6px;
-  top: 5px;
->>>>>>> Stashed changes
 }
 
 .reply-column:last-child > i {
   right: 40px;
-<<<<<<< Updated upstream
+
   top: 12px;
-=======
-  top: 14px;
->>>>>>> Stashed changes
 }
 .reply-column:last-child button {
   background-color: var(--yellow);
@@ -190,22 +165,12 @@
 }
 
 .reply .reply-column:first-child,
-<<<<<<< Updated upstream
 .reply .fa-smile- {
-=======
-.reply .fa-smile-beam,
-.reply button {
->>>>>>> Stashed changes
   transition: opacity 0.3s ease-in-out;
 }
 
 .reply:focus-within .reply-column:first-child,
-<<<<<<< Updated upstream
 .reply:focus-within .fa-smile-beam {
-=======
-.reply:focus-within .fa-smile-beam,
-.reply:focus-within button {
->>>>>>> Stashed changes
   opacity: 0;
 }
 

@@ -1,5 +1,4 @@
 .alt-header {
-<<<<<<< Updated upstream
   padding: 35px var(--horizontal-space);
   margin-bottom: 5px;
   display: flex;
@@ -9,18 +8,11 @@
 .alt-header__title {
   font-size: 30px;
   font-weight: 500;
-=======
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px var(--horizontal-space);
->>>>>>> Stashed changes
 }
 
 .alt-header__column {
   width: 33%;
 }
-<<<<<<< Updated upstream
 
 .alt-header__column:first-child {
   margin-right: auto;
@@ -42,26 +34,4 @@
 
 .alt-header__column span:last-child {
   margin-left: 20px;
-=======
-.alt-header__title {
-  font-size: 25px;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-}
-
-.alt-header__column:first-child {
-  display: flex;
-  justify-content: start;
-  font-size: 40px;
-}
-.alt-header__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.alt-header__column span {
-  margin-right: 15px;
->>>>>>> Stashed changes
 }
