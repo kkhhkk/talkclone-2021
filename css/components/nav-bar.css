@@ -19,10 +19,23 @@
   color: #2e363e;
 }
 
+@keyframes messagecome {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 15px;
+  animation: messagecome 2s ease-in-out infinite;
 }
 
 .nav__dot {

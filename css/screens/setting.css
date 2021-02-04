@@ -1,0 +1,56 @@
+#setting-screen {
+  height: 95vh;
+}
+
+#setting-screen .alt-header,
+#setting-screen .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+#setting-screen .status-bar {
+  z-index: 2;
+}
+
+#setting-screen .alt-header {
+  z-index: 1;
+}
+
+.main-setting {
+  margin-top: 100px;
+}
+
+.setting-list__setting {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.setting-list__setting:nth-child(3) {
+  border-bottom: var(--border-line-);
+}
+.setting-list__setting-column {
+  font-size: 20px;
+  display: flex;
+}
+
+.setting-list__setting-column i {
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.setting-list__setting-column span {
+  margin-right: 10px;
+}
+
+.setting-list__setting-column .alarm {
+  font-size: 15px;
+}
+
+.setting-list__setting-gray {
+  color: var(--gray-color);
+}
