@@ -1,10 +1,13 @@
 .more-screen .icon-row {
   margin-top: 25px;
+<<<<<<< Updated upstream
   font-weight: 400;
 }
 
 .more-screen .user-component__column:last-child {
   color: #2e363e;
+=======
+>>>>>>> Stashed changes
 }
 
 .more-screen__suggestion {

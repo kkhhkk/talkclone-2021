@@ -1,13 +1,31 @@
 .icon-row {
+<<<<<<< Updated upstream
+=======
+  margin-top: 20px;
+>>>>>>> Stashed changes
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
+=======
+.icon-row2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 43.5%;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+>>>>>>> Stashed changes
   align-items: center;
 }
 

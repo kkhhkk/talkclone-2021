@@ -41,6 +41,10 @@
 .user-component__description i {
   color: tomato;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .user-component__profile--sm {
   width: 50px;
   height: 50px;
@@ -57,4 +61,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.user-component__column-icon {
+  color: #2e363e;
 }

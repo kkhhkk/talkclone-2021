@@ -19,7 +19,11 @@
   color: #2e363e;
 }
 
+<<<<<<< Updated upstream
 @keyframes messagecome {
+=======
+@keyframes notificationAnimation {
+>>>>>>> Stashed changes
   0% {
     transform: none;
   }
@@ -35,7 +39,11 @@
   position: absolute;
   left: 20px;
   bottom: 15px;
+<<<<<<< Updated upstream
   animation: messagecome 2s ease-in-out infinite;
+=======
+  animation: notificationAnimation 2s ease-in-out infinite;
+>>>>>>> Stashed changes
 }
 
 .nav__dot {

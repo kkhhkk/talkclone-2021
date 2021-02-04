@@ -28,7 +28,11 @@
   color: var(--gray-color);
 }
 
+<<<<<<< Updated upstream
 @keyframes splashscreen {
+=======
+@keyframes hideSplashScreen {
+>>>>>>> Stashed changes
   from {
     opacity: 1;
   }
@@ -39,15 +43,28 @@
 }
 
 #splash-screen {
+<<<<<<< Updated upstream
   display: flex;
   justify-content: center;
   align-items: center;
+=======
+>>>>>>> Stashed changes
   background-color: var(--yellow);
   position: absolute;
   width: 100vw;
   height: 100vh;
+<<<<<<< Updated upstream
   top: 0mm;
   font-size: 52px;
   animation: splashscreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
+=======
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 0.5s;
+>>>>>>> Stashed changes
 }
